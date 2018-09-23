@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaviaddressProjectServer.Api", "NaviaddressProjectServer.Api\NaviaddressProjectServer.Api.csproj", "{12342C0A-7AB8-4166-8024-A3079569DE0F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{CDCAD547-3BF3-4AB5-B6C3-6CBF76E25A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaviaddressProjectServer.DataAccess.Contract", "NaviaddressProjectServer.DataAccess.Contract\NaviaddressProjectServer.DataAccess.Contract.csproj", "{BA166A6A-26FE-45EA-84D2-4596A6C09DE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaviaddressProjectServer.DataAccess.EFCore", "NaviaddressProjectServer.DataAccess.EFCore\NaviaddressProjectServer.DataAccess.EFCore.csproj", "{C43609EC-2181-4C7B-B2CB-85B5D27189F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{12342C0A-7AB8-4166-8024-A3079569DE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12342C0A-7AB8-4166-8024-A3079569DE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12342C0A-7AB8-4166-8024-A3079569DE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA166A6A-26FE-45EA-84D2-4596A6C09DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA166A6A-26FE-45EA-84D2-4596A6C09DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA166A6A-26FE-45EA-84D2-4596A6C09DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA166A6A-26FE-45EA-84D2-4596A6C09DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C43609EC-2181-4C7B-B2CB-85B5D27189F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C43609EC-2181-4C7B-B2CB-85B5D27189F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C43609EC-2181-4C7B-B2CB-85B5D27189F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C43609EC-2181-4C7B-B2CB-85B5D27189F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA166A6A-26FE-45EA-84D2-4596A6C09DE9} = {CDCAD547-3BF3-4AB5-B6C3-6CBF76E25A4C}
+		{C43609EC-2181-4C7B-B2CB-85B5D27189F5} = {CDCAD547-3BF3-4AB5-B6C3-6CBF76E25A4C}
 	EndGlobalSection
 EndGlobal

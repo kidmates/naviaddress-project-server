@@ -1,0 +1,51 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/chipsergik/Documents/projects/NaviaddressProjectServer/NaviaddressProjectServer.DataAccess.EFCore/NaviaddressProjectServer.DataAccess.EFCore.csproj",
+    "projectName": "NaviaddressProjectServer.DataAccess.EFCore",
+    "projectPath": "/Users/chipsergik/Documents/projects/NaviaddressProjectServer/NaviaddressProjectServer.DataAccess.EFCore/NaviaddressProjectServer.DataAccess.EFCore.csproj",
+    "outputPath": "/Users/chipsergik/Documents/projects/NaviaddressProjectServer/NaviaddressProjectServer.DataAccess.EFCore/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "/Users/chipsergik/Documents/projects/NaviaddressProjectServer/NaviaddressProjectServer.DataAccess.Contract/NaviaddressProjectServer.DataAccess.Contract.csproj": {
+            "projectPath": "/Users/chipsergik/Documents/projects/NaviaddressProjectServer/NaviaddressProjectServer.DataAccess.Contract/NaviaddressProjectServer.DataAccess.Contract.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[2.2.0-preview2-35157, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
