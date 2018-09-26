@@ -46,7 +46,7 @@ namespace NaviaddressProjectServer.Api.Controllers
             }
         }
 
-        [HttpGet("{locationdId}/ratings/")]
+        [HttpGet("{locationId}/ratings/")]
         public async Task<ApiModels.RatingResponseModel> GetRatings(string locationId)
         {
             return _mapper.Map<ApiModels.RatingResponseModel>(
