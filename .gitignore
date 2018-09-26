@@ -31,4 +31,6 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
-
+**/[Bb]in/
+**/[Oo]bj/
+**/[Oo]ut/
